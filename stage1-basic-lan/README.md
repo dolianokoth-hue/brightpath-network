@@ -44,7 +44,7 @@ I typed a show command in a global configuration mode yet show commands are to b
 ## What I learned
 A switch CLI has different modes whereby each mode gives you different levels of access.
 A switch forward frames to a destination device by learning the devices MAC addresses.
-
+My whole Stage 1 network is one broadcast domain, because a switch forwards broadcasts out of every port. I saw this in simulation mode when PC1's ARP request reached every device.
 ## Files
 - stage1.kt:Packet Tracer file
 - configs/SW1-running-config.txt:switch configuration
