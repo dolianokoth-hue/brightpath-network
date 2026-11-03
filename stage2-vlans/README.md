@@ -5,7 +5,7 @@ I split the network into four VLANs across two switches and connected them with 
 into five. Four user VLANs and VLAN 1 used for switch management.
 
 ## Topology
-![Topology](screenshots/topology.png)
+![Topology](screenshots/topology2.png)
 
 ## VLAN Table
 
