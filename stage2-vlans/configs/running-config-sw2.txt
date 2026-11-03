@@ -1,0 +1,37 @@
+Switch>enable
+Switch#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#hostname SW2
+SW2(config)#vlan 10
+SW2(config-vlan)#name Sales
+SW2(config-vlan)#exit
+SW2(config)#vlan 20
+SW2(config-vlan)#name IT
+SW2(config-vlan)#exit
+SW2(config)#vlan 30
+SW2(config-vlan)#name HR
+SW2(config-vlan)#exit
+SW2(config)#vlan 40
+SW2(config-vlan)#name Servers
+SW2(config-vlan)#exit
+SW2(config)#interface fa0/1
+SW2(config-if)#switchport mode access
+SW2(config-if)#switchport access vlan 10
+SW2(config-if)#exit
+SW2(config)#interface fa0/2
+SW2(config-if)#switchport mode access
+SW2(config-if)#switchport access vlan 30
+SW2(config-if)#exit
+SW2(config)#interface fa0/3
+SW2(config-if)#switchport mode access 
+SW2(config-if)#switchport access vlan 40
+SW2(config-if)#exit
+SW2(config)#interface gi0/1
+SW2(config-if)#switchport mode trunk
+SW2(config-if)#end
+SW2#
+%SYS-5-CONFIG_I: Configured from console by console
+copy running-config startup-config
+Destination filename [startup-config]? 
+Building configuration...
+[OK]
