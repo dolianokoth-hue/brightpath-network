@@ -3,7 +3,7 @@ This project is a small office network built in Cisco Packet Tracer, one stage a
 
 ## Progress
 - [x] [Stage 1: Basic LAN](stage1-basic-lan/)
-- [ ] Stage 2: VLANs and trunking
+- [x] [Stage 2: VLANs and trunking](stage2-vlans/)
 - [ ] Stage 3: Inter-VLAN routing
 - [ ] Stage 4: DHCP and DNS
 - [ ] Stage 5: Security
