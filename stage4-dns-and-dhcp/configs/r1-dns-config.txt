@@ -1,0 +1,8 @@
+R1(config)#ip dhcp pool SALES
+R1(dhcp-config)#dns-server 192.168.40.2
+R1(dhcp-config)#exit
+R1(config)#ip dhcp pool IT
+R1(dhcp-config)#dns-server 192.168.40.2
+R1(dhcp-config)#exit
+R1(config)#ip dhcp pool HR
+R1(dhcp-config)#dns-server 192.168.40.2
