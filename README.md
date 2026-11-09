@@ -5,7 +5,7 @@ This project is a small office network built in Cisco Packet Tracer, one stage a
 - [x] [Stage 1: Basic LAN](stage1-basic-lan/)
 - [x] [Stage 2: VLANs and trunking](stage2-vlans/)
 - [x] [Stage 3: Inter-VLAN routing](stage3-inter-vlan-routing/)
-- [ ] Stage 4: DHCP and DNS
+- [x] [Stage 4: DHCP and DNS](stage4-dns-and-dhcp/)
 - [ ] Stage 5: Security
 - [ ] Stage 6: WAN, NAT and branch office
       
