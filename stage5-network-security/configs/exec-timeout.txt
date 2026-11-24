@@ -1,0 +1,15 @@
+R1#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#line vty 0?
+<0-15>  
+R1(config)#line vty 0
+R1(config-line)#exit
+R1(config)#line vty 0 15
+R1(config-line)#exec-timeout 5 0
+R1(config-line)#end
+R1#
+%SYS-5-CONFIG_I: Configured from console by console
+copy running-config startup-config
+Destination filename [startup-config]? 
+Building configuration...
+[OK]

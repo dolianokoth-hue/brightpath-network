@@ -1,0 +1,13 @@
+
+SW1#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+SW1(config)#interface fa0/1
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport port-security
+SW1(config-if)#switchport port-security mac-address sticky
+SW1(config-if)#switchport port-security violation shutdown
+SW1(config)#interface fa0/2
+SW1(config-if)#switchport mode access
+SW1(config-if)#switchport port-security
+SW1(config-if)#switchport port-security mac-address sticky
+SW1(config-if)#switchport port-security violation shutdown
